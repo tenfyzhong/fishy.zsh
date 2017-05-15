@@ -10,7 +10,6 @@ _fishy_collapsed_wd() {
 } 
 
 PROMPT='%{$fg[green]%}$(_fishy_collapsed_wd)%{$reset_color%} $(git_prompt_info)%(!.#.$) '
-RPROMPT=''
 
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg_no_bold[yellow]%}%B"
